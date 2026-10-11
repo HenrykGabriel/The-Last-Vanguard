@@ -13,9 +13,9 @@ class Cavaleiro:
 
         self.vida = self.vida_maxima
 
-        self.dano_max = 4
+        self.dano_max = 5
 
-        self.dano_min = 3
+        self.dano_min = 4
 
         self.chance_critico = 7
 

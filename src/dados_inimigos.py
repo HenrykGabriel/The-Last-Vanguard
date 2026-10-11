@@ -63,3 +63,35 @@ Esqueleto = {
     "velocidade_animacao": 90,
     "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_esqueleto.mp3")
 }
+
+Golem = {
+    "nome": "Golem",
+    "vida": 45,
+    "dano_max": 7,
+    "dano_min": 4,
+    "esquiva": 10,
+    "chance_critico": 6,
+    "critico": 1.75,
+    "caminho": caminho_asset("inimigos/Golem.png"),
+    "largura": 210,
+    "altura": 210,
+    "qtd_frames": 5,
+    "velocidade_animacao": 120,
+    "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_esqueleto.mp3")
+}
+
+Anubis = {
+    "nome": "Anubis",
+    "vida": 50,
+    "dano_max": 10,
+    "dano_min": 7,
+    "esquiva": 16,
+    "chance_critico": 6,
+    "critico": 1.75,
+    "caminho": caminho_asset("inimigos/chefes/Anubis.png"),
+    "largura": 210,
+    "altura": 210,
+    "qtd_frames": 3,
+    "velocidade_animacao": 120,
+    "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_esqueleto.mp3")
+}
