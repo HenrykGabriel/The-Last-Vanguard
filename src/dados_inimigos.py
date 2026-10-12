@@ -95,3 +95,51 @@ Anubis = {
     "velocidade_animacao": 120,
     "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_esqueleto.mp3")
 }
+
+Sombra = {
+    "nome": "Sombra",
+    "vida": 30,
+    "dano_max": 9,
+    "dano_min": 7,
+    "esquiva": 16,
+    "chance_critico": 6,
+    "critico": 1.75,
+    "caminho": caminho_asset("inimigos/Sombra.png"),
+    "largura": 210,
+    "altura": 210,
+    "qtd_frames": 5,
+    "velocidade_animacao": 120,
+    "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_esqueleto.mp3")
+}
+
+Cavaleiro_sombrio = {
+    "nome": "Cavaleiro Sombrio",
+    "vida": 55,
+    "dano_max": 12,
+    "dano_min": 10,
+    "esquiva": 16,
+    "chance_critico": 6,
+    "critico": 1.75,
+    "caminho": caminho_asset("inimigos/Cavaleiro_Sombrio.png"),
+    "largura": 260,
+    "altura": 260,
+    "qtd_frames": 8,
+    "velocidade_animacao": 100,
+    "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_esqueleto.mp3")
+}
+
+Dragao = {
+    "nome": "Dragão",
+    "vida": 75,
+    "dano_max": 15,
+    "dano_min": 12,
+    "esquiva": 16,
+    "chance_critico": 6,
+    "critico": 1.75,
+    "caminho": caminho_asset("inimigos/chefes/Dragao.png"),
+    "largura": 250,
+    "altura": 250,
+    "qtd_frames": 6,
+    "velocidade_animacao": 120,
+    "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_esqueleto.mp3")
+}

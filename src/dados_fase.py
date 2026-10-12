@@ -1,8 +1,8 @@
-from dados_inimigos import Slime_azul, Slime_verde, King_slime, Esqueleto, Golem, Anubis
+from dados_inimigos import Slime_azul, Slime_verde, King_slime, Esqueleto, Golem, Anubis, Sombra, Cavaleiro_sombrio, Dragao
 
 dados = {
     "Campo aberto": [
-        [Anubis, Golem],
+        [Slime_azul, Slime_azul],
 
         [Slime_verde, Slime_verde],
 
@@ -16,10 +16,10 @@ dados = {
         [Anubis],
     ],
     "Zona vulcânica": [
-        [Slime_azul, Slime_azul],
+        [Sombra, Sombra],
 
-        [Slime_verde, Slime_verde],
+        [Cavaleiro_sombrio],
 
-        [King_slime],
+        [Dragao],
     ]
 }
