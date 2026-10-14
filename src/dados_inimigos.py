@@ -77,7 +77,7 @@ Golem = {
     "altura": 210,
     "qtd_frames": 5,
     "velocidade_animacao": 120,
-    "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_esqueleto.mp3")
+    "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_golem.mpeg")
 }
 
 Anubis = {
@@ -93,7 +93,7 @@ Anubis = {
     "altura": 210,
     "qtd_frames": 3,
     "velocidade_animacao": 120,
-    "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_esqueleto.mp3")
+    "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_anubis.m4a")
 }
 
 Sombra = {
@@ -109,7 +109,7 @@ Sombra = {
     "altura": 210,
     "qtd_frames": 5,
     "velocidade_animacao": 120,
-    "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_esqueleto.mp3")
+    "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_sombra.mpeg")
 }
 
 Cavaleiro_sombrio = {
@@ -125,7 +125,7 @@ Cavaleiro_sombrio = {
     "altura": 260,
     "qtd_frames": 8,
     "velocidade_animacao": 100,
-    "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_esqueleto.mp3")
+    "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_cav_sombrio.m4a")
 }
 
 Dragao = {
@@ -141,5 +141,5 @@ Dragao = {
     "altura": 250,
     "qtd_frames": 6,
     "velocidade_animacao": 120,
-    "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_esqueleto.mp3")
+    "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_dragão.m4a")
 }
