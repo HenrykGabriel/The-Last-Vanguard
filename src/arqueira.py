@@ -9,13 +9,13 @@ class Arqueira:
 
         self.caminho_imagem = caminho_asset("arqueira/Arqueira.png")
 
-        self.vida_maxima = 22
+        self.vida_maxima = 24
 
         self.vida = self.vida_maxima
 
-        self.dano_max = 5
+        self.dano_max = 6
 
-        self.dano_min = 4
+        self.dano_min = 5
 
         self.chance_critico = 10
 
@@ -23,7 +23,7 @@ class Arqueira:
 
         self.esquiva = 15
 
-        self.escudo_maximo = 3
+        self.escudo_maximo = 4
 
         self.larg_frame = 210
 

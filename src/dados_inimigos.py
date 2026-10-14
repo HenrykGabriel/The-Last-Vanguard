@@ -50,7 +50,7 @@ King_slime = {
 
 Esqueleto = {
     "nome": "Esqueleto",
-    "vida": 20,
+    "vida": 16,
     "dano_max": 4,
     "dano_min": 3,
     "esquiva": 8,
@@ -66,11 +66,11 @@ Esqueleto = {
 
 Golem = {
     "nome": "Golem",
-    "vida": 45,
-    "dano_max": 7,
+    "vida": 40,
+    "dano_max": 6,
     "dano_min": 4,
-    "esquiva": 10,
-    "chance_critico": 6,
+    "esquiva": 4,
+    "chance_critico": 3,
     "critico": 1.75,
     "caminho": caminho_asset("inimigos/Golem.png"),
     "largura": 210,
@@ -82,28 +82,28 @@ Golem = {
 
 Anubis = {
     "nome": "Anubis",
-    "vida": 50,
-    "dano_max": 10,
-    "dano_min": 7,
-    "esquiva": 16,
-    "chance_critico": 6,
+    "vida": 40,
+    "dano_max": 8,
+    "dano_min": 6,
+    "esquiva": 10,
+    "chance_critico": 8,
     "critico": 1.75,
     "caminho": caminho_asset("inimigos/chefes/Anubis.png"),
     "largura": 210,
     "altura": 210,
     "qtd_frames": 3,
     "velocidade_animacao": 120,
-    "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_anubis.m4a")
+    "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_anubis.mp3")
 }
 
 Sombra = {
     "nome": "Sombra",
-    "vida": 30,
-    "dano_max": 9,
-    "dano_min": 7,
+    "vida": 22,
+    "dano_max": 6,
+    "dano_min": 4,
     "esquiva": 16,
-    "chance_critico": 6,
-    "critico": 1.75,
+    "chance_critico": 4,
+    "critico": 1.50,
     "caminho": caminho_asset("inimigos/Sombra.png"),
     "largura": 210,
     "altura": 210,
@@ -114,32 +114,32 @@ Sombra = {
 
 Cavaleiro_sombrio = {
     "nome": "Cavaleiro Sombrio",
-    "vida": 55,
-    "dano_max": 12,
-    "dano_min": 10,
-    "esquiva": 16,
-    "chance_critico": 6,
-    "critico": 1.75,
+    "vida": 45,
+    "dano_max": 9,
+    "dano_min": 7,
+    "esquiva": 10,
+    "chance_critico": 8,
+    "critico": 1.50,
     "caminho": caminho_asset("inimigos/Cavaleiro_Sombrio.png"),
     "largura": 260,
     "altura": 260,
     "qtd_frames": 8,
     "velocidade_animacao": 100,
-    "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_cav_sombrio.m4a")
+    "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_cav_sombrio.mp3")
 }
 
 Dragao = {
     "nome": "Dragão",
-    "vida": 75,
-    "dano_max": 15,
-    "dano_min": 12,
-    "esquiva": 16,
-    "chance_critico": 6,
-    "critico": 1.75,
+    "vida": 55,
+    "dano_max": 12,
+    "dano_min": 9,
+    "esquiva": 10,
+    "chance_critico": 15,
+    "critico": 1.50,
     "caminho": caminho_asset("inimigos/chefes/Dragao.png"),
     "largura": 250,
     "altura": 250,
     "qtd_frames": 6,
-    "velocidade_animacao": 120,
-    "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_dragão.m4a")
+    "velocidade_animacao": 100,
+    "som_ataque": caminho_asset("sounds/som_inimigos/som_ataque_dragão.mp3")
 }
